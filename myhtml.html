@@ -1,20 +1,28 @@
 <doctype>
 <html>
 	<head>
+		<!-- "title" Is what shaw in tab -->
+		<title>
+			First Project
+		</title>
 	</head>
 	<body>
+		<!-- "h1,h2,h3,h4,h5,h6" Is size of title -->
 		<h1>
 			First project 
 		</h1>
 		<h2>
 			Ahmed
 		</h2>
+		<!-- "pre" Is what make the next text shaw as it  -->
 		<pre>
 			test on name with other font and other size and other color 
 		</pre>
 		<font size="5" color="0000ff" face="arial">
+			<!-- "b" Is bold -->
             <b>
                  <i>
+					<!-- "u" under line -->
                     <u> Nassar</u>
                 </i>
             </b>
@@ -22,8 +30,9 @@
 		<pre>
 			test on unorderd list 
 		</pre>
-		
+		<!-- "ul"unordered list = (cycle ’ square) or not needed to add type  -->
 		<ul type = "square">
+			<!-- "li"list item  -->
 			<li>Ahmed</li>
 			<li>Mohamed</li>
 			<li>Nassar</li>
@@ -31,7 +40,9 @@
 		<pre>
 			test on orderd list
 		</pre>
+		<!-- "ol"-ordered list = (numbers ‘ iv) -->
 		<ol type = "i">
+			<!-- "li"list item  -->
 			<li>Ahmed</li>
 			<li>Mohamed</li>
 			<li>Nassar</li>
@@ -39,12 +50,18 @@
 		<pre>
 			test on pragraph list
 		</pre>
+		<!-- "dl"-definition list = ( paragraph ) -->
 		<dl>
+			<!-- "dt"definition title  -->
 			<dt>My Name</dt>
+			<!-- "dd"definition definition  -->
 			<dd>Ahmed Mohamed Nassar</dd>
 			<dt>My e-mail</dt>
 			<dd>ahmed.nassar.new@gmail.com</dd>
 		</dl>
+		<!-- "a" Is which you will put in it any thing to do a click like a link or move to another page -->
+		<!-- "href" which you will put the link on it and when you click on it its move you to the link on it   -->
+		<!-- and between "a" tags you will put the text which will shaw in press -->
 		<a href="#abc">click here</a>
 		<pre>
 			Test about press on "click here" and move you to pic google and when toy press in it will take you to google website
@@ -113,7 +130,8 @@
 		<a href="http://www.google.com">
 
 
-
+			<!-- "img" which you will put the img in it and you have to put the link in "src" -->
+			<!-- "src" its what you move it from any page and put it in your page -->
 			<img
 			src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
 			/>
@@ -123,7 +141,47 @@
 			<h1>Contact us</h1>
 		 </a>
 		</pre>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.5155137170646!2d31.342784115071094!3d30.108058881859332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458151bef693a45%3A0x6427ad06e65e6a4b!2sBAZOOKA%20FRIED%20CHICKEN!5e0!3m2!1sen!2seg!4v1638429967768!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-		
+		<!-- "iframe" its wich you use it to put a video or map or anothe page In your page put its be in pice of your page which you marked it  -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.5155137170646!2d31.342784115071094!3d30.108058881859332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458151bef693a45%3A0x6427ad06e65e6a4b!2sBAZOOKA%20FRIED%20CHICKEN!5e0!3m2!1sen!2seg!4v1638429967768!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+		</iframe>
+		<!-- "table" It's make a table and should be in it 3 thing 
+		first thing is "caption" caption is title of at the top of table
+		second thing is "thead" table head is the head of every thing in table 
+		therd ting is "th" its table header or every one of "th" make one cell 
+		you can replace "th" by "td" but "th" make text bold and make it in but "td"make text not bold and not in center
+		number four is"tf" table foter and its as a notes
+		you have put "tr" in evrey table line  -->
+
+		<table width="400px" border="2px" >
+			<caption>
+				Text Befor table
+			</caption>
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Neme</th>
+					<th>address</th>
+				</tr>
+			</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Ahmed</td>
+						<td>Ahmed Address</td>
+					</tr>
+					<tr>
+						<th>2</th>
+						<td>Mohamed</td>
+						<td>Mohamed Address</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td> Id footer</td>
+						<td> Name footer</td>
+						<td> Address footer</td>
+					</tr>
+				</tfoot>
+		</table>
 		</body>
 </html>
