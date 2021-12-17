@@ -1,0 +1,56 @@
+			*
+			{
+			color: rgb(36, 158, 19);
+			}
+			/* 
+			"#" for "ID"
+			 */
+			#li5
+			{
+				color: yellow;
+			}
+			h1
+			{
+				color: red;
+			}
+			li
+			{
+				color: green;
+			}
+			/* you have to "select" which tags you are targeting to meke changes on it */
+			/* in css you write like this "selector"body { "property"color: "value"navy;} */
+			body
+			{
+				background-color: rgb(250, 242, 236);
+			}
+			/* 
+			"." for class
+			 */
+			.blueData
+			{color: blue;}
+			h4, h5
+			{
+				color: turquoise;
+			}
+			/* div p
+			{
+				color: black;
+			} */
+			/* div > p
+			{
+				color: black;
+			} */
+			/* div + p
+			{
+				color: black;
+			} */
+			/* div ~ p
+			{
+				color: black;
+			} */
+			/* 
+			"SPACE" div p = selects all <p> elements inside <div> elements
+			">"  div>p = selects all <p> elements that are immediate children of a <div> element
+			"+" div+p = selects all <p> elements that are immediately after <div> elements
+			"~" div~p = selects all <p> elements that are siblings of <div> elements
+			 */
