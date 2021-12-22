@@ -28,7 +28,10 @@
 			 */
 			.blueData
 			{color: blue;}
-			h4, h5
+			/* 
+			"," for and
+			 */
+			h4,h5
 			{
 				color: turquoise;
 			}
@@ -54,3 +57,4 @@
 			"+" div+p = selects all <p> elements that are immediately after <div> elements
 			"~" div~p = selects all <p> elements that are siblings of <div> elements
 			 */
+			 
